@@ -19,3 +19,6 @@
 .aumentarTexto {
     font-size: 19px;
 }
+.sublinhado{
+    text-decoration: underline;
+}
