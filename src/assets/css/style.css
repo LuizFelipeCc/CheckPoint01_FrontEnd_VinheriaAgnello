@@ -5,7 +5,7 @@
     text-transform: uppercase;
     color: darkred
 }
-.paragrafo {
+#paragrafo {
     text-indent: 40px;
 }
 .centralizar {
@@ -18,4 +18,7 @@
 }
 .aumentarTexto {
     font-size: 19px;
+}
+.sublinhado{
+    text-decoration: underline;
 }
