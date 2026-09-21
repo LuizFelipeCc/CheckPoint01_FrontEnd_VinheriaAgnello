@@ -1,0 +1,20 @@
+.fonteBonita {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.corTituloPrincipal {
+    text-transform: uppercase;
+    color: darkred
+}
+.paragrafo {
+    text-indent: 40px;
+}
+.centralizar {
+    justify-content: center;
+    align-items: center;
+}
+.aumentarSubtitulo {
+    font-size: 28px;
+}
+.aumentarTexto {
+    font-size: 19px;
+}
