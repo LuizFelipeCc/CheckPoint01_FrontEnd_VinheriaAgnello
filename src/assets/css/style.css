@@ -22,3 +22,37 @@
 .sublinhado{
     text-decoration: underline;
 }
+.h2VinhoTinto {
+    position: relative;
+    margin: 0;
+    top: -200px;
+    left: 90px;
+    color: #800020;
+}
+.h2VinhoBranco {
+    position: relative;
+    margin: 0;
+    top: -200px;
+    left: 120px;
+    color: rgb(240, 214, 102);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+.ulVinhosdaLoja {
+    position: relative;
+    top: 100px;
+}
+.ulnavegacao {
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
+    list-style: none;
+    margin-bottom: 70px;
+}
+.footerTopo {
+    background-color: #6B1D2F;
+}
+.fundo {
+    background-color: #fbfbfa;
+}
