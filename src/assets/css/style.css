@@ -76,3 +76,8 @@ h1, h2, h3 {
     width: 350px;
     background-color: #f9f9f9;
 }
+table td {
+    text-align: center;
+    vertical-align: middle;
+
+}
