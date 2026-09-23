@@ -1,58 +1,78 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .corTituloPrincipal {
     text-transform: uppercase;
-    color: darkred
+    color: #4A1725;
 }
+
 #paragrafo {
     text-indent: 40px;
 }
+
 .centralizar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .aumentarSubtitulo {
     font-size: 28px;
 }
+
 .aumentarTexto {
     font-size: 19px;
 }
-.sublinhado{
+
+.sublinhado {
     text-decoration: underline;
 }
+
 .h2VinhoTinto {
     position: relative;
     margin: 0;
     top: -200px;
     left: 90px;
-    color: #800020;
+    color: #4A1725;
 }
+
 .h2VinhoBranco {
     position: relative;
     margin: 0;
     top: -200px;
     left: 120px;
-    color: rgb(240, 214, 102);
+    color: #B08D57;
 }
+
 h1, h2, h3 {
     text-align: center;
 }
+
 .ulVinhosdaLoja {
     position: relative;
     top: 100px;
 }
+
 .ulnavegacao {
-    display: flex; 
-    justify-content: center; 
-    gap: 50px; 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
     list-style: none;
     margin-bottom: 70px;
 }
+
 .footerTopo {
-    background-color: #6B1D2F;
+    background-color: #4A1725;
 }
+
 .fundo {
-    background-color: #fbfbfa;
+    background-color: #F7F5F0;
+}
+
+.caixaFormulario {
+    border: 2px solid #333333;
+    padding: 20px;
+    width: 350px;
+    background-color: #f9f9f9;
 }
