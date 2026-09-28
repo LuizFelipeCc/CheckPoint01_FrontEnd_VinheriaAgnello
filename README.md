@@ -24,6 +24,9 @@ Contém um vídeo sobre a vinheria Agnello, parágrafos sobre sua história, e c
 #### `Página de Informações de Armazenamento`
 - Contém Tabela com detalhes sobre a armazenação dos vinhos da vinheria e também os cuidados que os clientes devem ter ao armazenar os vinhos em suas casas.
 
+### `JavaScript`
+- Contém uma informação para o usuario colocar de acordo com vinho, tipo, safra e quantidade em estoque. Após as informações elas ficam guardadas no console do index.html.
+
 
 
 ## Integrantes do projeto
