@@ -43,6 +43,12 @@ input:focus, textarea:focus {
         transform: translateY(0);
     }
 }
+.FL::first-letter {
+    font-size: 4rem;
+    color: #D4AF37;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 6px;
+}
 .body {
     animation: carregarSite ease-out 1.2s;
 }
