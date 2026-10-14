@@ -72,15 +72,19 @@ h1, h2, h3 {
     background-color: #F7F5F0;
 }
 
-.caixaFormulario {
-    border: 2px solid #333333;
-    padding: 20px;
-    width: 350px;
-    background-color: #f9f9f9;
-    transition: all 2s
-}
+
 table td {
     text-align: center;
     vertical-align: middle;
 
+}
+.ulnavegacao a {
+    color: #D4AF37;}
+
+.corBranca {
+    color: white;
+}
+
+.corDourada {
+    color: #D4AF37;
 }

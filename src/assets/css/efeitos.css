@@ -10,7 +10,27 @@ p {
     color: #F5F5F5;
     margin: 10px;
 }
+.caixaFormulario {
+    background-color: #3b0a14; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    transition: all 0.3s ease; 
+}
 .caixaFormulario:hover {
-    background-color: cyan;
+    background-color: #D4AF37;
     width: 450px;
+}
+@keyframes carregarSite {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.body {
+    animation: carregarSite ease-out 1.2s;
 }
