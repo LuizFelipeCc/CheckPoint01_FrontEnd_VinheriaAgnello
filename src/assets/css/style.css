@@ -1,3 +1,5 @@
+@import 'efeitos.css';
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -68,9 +70,9 @@ h1, h2, h3 {
     background-color: #4A1725;
 }
 
-.fundo {
+/* .fundo {
     background-color: #F7F5F0;
-}
+} */
 
 
 table td {
