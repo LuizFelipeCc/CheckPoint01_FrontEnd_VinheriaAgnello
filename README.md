@@ -24,7 +24,7 @@ Contém um vídeo sobre a vinheria Agnello, parágrafos sobre sua história, e c
 #### `Página de Informações de Armazenamento`
 - Contém Tabela com detalhes sobre a armazenação dos vinhos da vinheria e também os cuidados que os clientes devem ter ao armazenar os vinhos em suas casas.
 
-### `JavaScript`
+#### `JavaScript`
 - Contém uma informação para o usuario colocar de acordo com vinho, tipo, safra e quantidade em estoque. Após as informações elas ficam guardadas no console do index.html.
 
 
@@ -39,3 +39,17 @@ Contém um vídeo sobre a vinheria Agnello, parágrafos sobre sua história, e c
 ## Link para o GitHub Pages do site
 
 <span style="font-size: 20px">https://luizfelipecc.github.io/CheckPoint01_FrontEnd_VinheriaAgnello/</span>
+
+
+## Efeitos Visuais
+### `Pseudo-Classes usadas`:
+- **:hover** -> Usado na página inicial para criar um efeito chamativo na caixa de formulário, mudando o tamanho da caixa e sua cor.
+- **:focus** -> Usado no input/textarea para indicar ao usuário em qual sessão da caixa de formulário ele está, Deixando o fundo verde e a borda dourada. 
+- **:checked** -> Usado para mostrar ao usuário que ele clicou na caixinha de receber ofertas, trazendo uma leve mudança de posição.
+
+### `Pseudo-Elementos usados`:
+- **::first-letter** -> Usado na primeira letra do primeiro parágrafo da página inicial, deixando a fonte maior e mudando a cor.
+- **::selection** -> Usado para mudar a cor da seleção das palavras, enquanto segurar o botão esquerdo do mouse passe o cursor por cima dos parágrafos.
+
+## `Animações`: 
+### A animação aparece ao entrar no site, como se fosse um estilo suave de carregar a página. Usada em todas as páginas.

@@ -73,8 +73,6 @@ h1, h2, h3 {
 .fundo {
     background-color: #F7F5F0;
 }
-
-
 table td {
     text-align: center;
     vertical-align: middle;
@@ -89,4 +87,8 @@ table td {
 
 .corDourada {
     color: #D4AF37;
+}
+::selection {
+    background-color: #D4AF37;
+    color: #000000;
 }
