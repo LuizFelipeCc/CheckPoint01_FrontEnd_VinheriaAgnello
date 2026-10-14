@@ -90,3 +90,12 @@ table td {
 .corDourada {
     color: #D4AF37;
 }
+::selection {
+    background-color: #D4AF37;
+    color: #000000;
+}
+p::first-letter {
+    font-size: 200%;
+    color: #D4AF37;
+    font-weight: bold;
+}

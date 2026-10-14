@@ -25,6 +25,7 @@ ul {
 .caixaFormulario:hover {
     background-color: #D4AF37;
     width: 450px;
+    transform: scale(1.05);
 }
 input:focus, textarea:focus {
     outline: none; 
@@ -36,14 +37,25 @@ input:focus, textarea:focus {
 @keyframes carregarSite {
     0% {
         opacity: 0;
-        transform: translateY(-20px);
+        visibility: hidden;
+        transform: translateY(-30px);
+    }
+    50% {
+        opacity: 0.5;
     }
     100% {
         opacity: 1;
+        visibility: visible;
         transform: translateY(0);
     }
 }
-.body {
-    animation: carregarSite ease-out 1.2s;
+body {
+    animation-name: carregarSite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+input:checked {
+    width: 30px;
 }
 /* so pra salvar */
