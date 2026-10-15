@@ -42,14 +42,16 @@ Contém um vídeo sobre a vinheria Agnello, parágrafos sobre sua história, e c
 
 
 ## Efeitos Visuais
-### `Pseudo-Classes usadas`:
+ Um gradiente para o fundo da página foi usado para trazer uma cor mais adequada para uma vinheria.
+
+#### `Pseudo-Classes usadas`:
 - **:hover** -> Usado na página inicial para criar um efeito chamativo na caixa de formulário, mudando o tamanho da caixa e sua cor.
 - **:focus** -> Usado no input/textarea para indicar ao usuário em qual sessão da caixa de formulário ele está, Deixando o fundo verde e a borda dourada. 
 - **:checked** -> Usado para mostrar ao usuário que ele clicou na caixinha de receber ofertas, trazendo uma leve mudança de posição.
 
-### `Pseudo-Elementos usados`:
+#### `Pseudo-Elementos usados`:
 - **::first-letter** -> Usado na primeira letra do primeiro parágrafo da página inicial, deixando a fonte maior e mudando a cor.
 - **::selection** -> Usado para mudar a cor da seleção das palavras, enquanto segurar o botão esquerdo do mouse passe o cursor por cima dos parágrafos.
 
-## `Animações`: 
-### A animação aparece ao entrar no site, como se fosse um estilo suave de carregar a página. Usada em todas as páginas.
+### `Animações`: 
+#### A animação aparece ao entrar no site, como se fosse um estilo suave de carregar a página. Usada em todas as páginas.
